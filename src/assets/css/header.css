@@ -1,0 +1,55 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.header .left-header > p{
+    margin-left: 10px;
+}
+.header .left-header > p:hover{
+    cursor: pointer;
+}
+
+.header .right-header > p{
+    margin-right: 10px;
+}
+
+.header .right-header > p:hover{
+    cursor: pointer;
+}
+
+
+/* .left-header {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    background-color: blue;
+} */
+/* 
+.right-header {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.left-header p{
+    margin-left: 10px;
+}
+
+.right-header p{
+    margin-right: 10px;
+} */

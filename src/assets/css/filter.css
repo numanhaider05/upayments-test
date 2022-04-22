@@ -1,0 +1,9 @@
+.filter-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    /* background-color: white; */  
+}
+
